@@ -1,12 +1,3 @@
-/*jshint smarttabs: true, supernew: true */
-/*global AG */
-
-/** 
- * @namespace
- * @requires ag.validate.js
- */
-
-
 
 Function.prototype.method = function (name, func) {
     this.prototype[name] = func;
