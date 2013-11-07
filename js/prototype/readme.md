@@ -1,1 +1,1 @@
-Prototype methods for Strings, Numbers, and Arrays.
+Prototype methods for Strings, Numbers, Arrays, and Dates.
