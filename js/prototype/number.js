@@ -1,3 +1,8 @@
+Function.prototype.method = function (name, func) {
+    this.prototype[name] = func;
+    return this;
+};
+
 /**
  * Prototype extension. Insert commas into a number 
  * Reference: http://blog.stevenlevithan.com/archives/commafy-numbers
